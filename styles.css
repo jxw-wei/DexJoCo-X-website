@@ -9,3 +9,6 @@
 .contact-line{margin:8px auto 16px;font-size:14px;color:var(--muted)}.contact-line a{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
 
 .hero-hyphen{font-family:Arial,Helvetica,sans-serif;font-size:.8em;font-weight:400;vertical-align:.07em;letter-spacing:0}
+
+.lab-affiliation{display:inline-flex;align-items:center;justify-content:center;gap:12px;margin:0 auto 6px;max-width:100%;color:var(--muted);font-size:13px}.lab-affiliation img{width:80px;height:auto;flex-shrink:0}.lab-affiliation:hover span{color:var(--accent)}
+@media(max-width:540px){.lab-affiliation{gap:8px;font-size:11px}.lab-affiliation img{width:64px}}
