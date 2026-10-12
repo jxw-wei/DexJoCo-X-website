@@ -7,3 +7,5 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
 
 .contact-line{margin:8px auto 16px;font-size:14px;color:var(--muted)}.contact-line a{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
+
+.hero-hyphen{font-family:Arial,Helvetica,sans-serif;font-size:.8em;font-weight:400;vertical-align:.07em;letter-spacing:0}
