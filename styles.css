@@ -12,3 +12,6 @@
 
 .lab-affiliation{display:inline-flex;align-items:center;justify-content:center;gap:12px;margin:0 auto 6px;max-width:100%;color:var(--muted);font-size:13px}.lab-affiliation img{width:80px;height:auto;flex-shrink:0}.lab-affiliation:hover span{color:var(--accent)}
 @media(max-width:540px){.lab-affiliation{gap:8px;font-size:11px}.lab-affiliation img{width:64px}}
+
+.lab-affiliations{display:grid;justify-content:center;gap:8px;margin:0 auto 6px}.lab-affiliations .lab-affiliation{display:grid;grid-template-columns:80px 1fr;gap:12px;margin:0;text-align:left}.scalelab-affiliation img{width:38px;height:38px;object-fit:contain;justify-self:center}
+@media(max-width:540px){.lab-affiliations .lab-affiliation{grid-template-columns:64px 1fr;gap:8px}.lab-affiliations .scalelab-affiliation img{width:34px;height:34px}}
