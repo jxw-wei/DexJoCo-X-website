@@ -13,5 +13,5 @@
 .lab-affiliation{display:inline-flex;align-items:center;justify-content:center;gap:12px;margin:0 auto 6px;max-width:100%;color:var(--muted);font-size:13px}.lab-affiliation img{width:80px;height:auto;flex-shrink:0}.lab-affiliation:hover span{color:var(--accent)}
 @media(max-width:540px){.lab-affiliation{gap:8px;font-size:11px}.lab-affiliation img{width:64px}}
 
-.lab-affiliations{display:grid;justify-content:center;gap:8px;margin:0 auto 6px}.lab-affiliations .lab-affiliation{display:grid;grid-template-columns:80px 1fr;gap:12px;margin:0;text-align:left}.scalelab-affiliation img{width:38px;height:38px;object-fit:contain;justify-self:center}
-@media(max-width:540px){.lab-affiliations .lab-affiliation{grid-template-columns:64px 1fr;gap:8px}.lab-affiliations .scalelab-affiliation img{width:34px;height:34px}}
+.lab-affiliations{display:flex;justify-content:center;align-items:center;gap:32px;margin:0 auto 14px}.lab-affiliations .lab-affiliation{display:flex;align-items:center;gap:10px;margin:0;text-align:left}.lab-affiliations img{width:80px;height:38px;object-fit:contain}.lab-affiliations .scalelab-affiliation img{width:38px;height:38px}
+@media(max-width:540px){.lab-affiliations{gap:22px;align-items:flex-start}.lab-affiliations .lab-affiliation{flex:1;max-width:160px;flex-direction:column;gap:5px;text-align:center}.lab-affiliations img{width:72px;height:34px}.lab-affiliations .scalelab-affiliation img{width:34px;height:34px}}
